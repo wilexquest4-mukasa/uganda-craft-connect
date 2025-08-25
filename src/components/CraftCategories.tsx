@@ -1,6 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import basketImage from "@/assets/basket-product.jpg";
+import basketImage from "@/assets/woven-basket.jpg";
 import beadworkImage from "@/assets/beadwork-product.jpg";
+import woodSculptureImage from "@/assets/wood-sculpture.jpg";
+import textilesImage from "@/assets/traditional-textiles.jpg";
+import banglesImage from "@/assets/traditional-bangles.jpg";
 
 const categories = [
   {
@@ -18,19 +21,19 @@ const categories = [
   {
     name: "Traditional Textiles",
     description: "Rich fabrics with authentic African patterns and designs",
-    image: basketImage, // We'll generate more images later
+    image: textilesImage,
     itemCount: "300+ items"
   },
   {
     name: "Wood Carvings",
     description: "Masterful sculptures and functional art pieces",
-    image: beadworkImage, // We'll generate more images later
+    image: woodSculptureImage,
     itemCount: "120+ items"
   },
   {
     name: "Indigenous Jewelry",
     description: "Handcrafted accessories celebrating Ugandan heritage",
-    image: basketImage, // We'll generate more images later
+    image: banglesImage,
     itemCount: "180+ items"
   }
 ];
