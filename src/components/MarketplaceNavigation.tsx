@@ -1,14 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-
 const MarketplaceNavigation = () => {
-  return (
-    <nav className="bg-background/95 backdrop-blur-md border-b border-border sticky top-0 z-50">
+  return <nav className="bg-background/95 backdrop-blur-md border-b border-border sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-8">
             <div className="text-2xl font-bold text-primary">
-              Uganda<span className="text-gold">Craft</span>
+              Uganda<span className="text-gold">Craft hub</span>
             </div>
             
             <div className="hidden md:flex items-center space-x-6">
@@ -28,8 +26,6 @@ const MarketplaceNavigation = () => {
           </div>
         </div>
       </div>
-    </nav>
-  );
+    </nav>;
 };
-
 export default MarketplaceNavigation;
