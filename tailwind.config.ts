@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Uganda craft heritage colors
+				ochre: 'hsl(var(--ochre))',
+				'deep-blue': 'hsl(var(--deep-blue))',
+				gold: 'hsl(var(--gold))',
+				'forest-green': 'hsl(var(--forest-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -8,33 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Uganda-inspired color palette */
+    --background: 45 15% 97%;
+    --foreground: 25 25% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 45 25% 99%;
+    --card-foreground: 25 25% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 45 25% 99%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Terracotta primary inspired by Ugandan pottery */
+    --primary: 18 75% 45%;
+    --primary-foreground: 45 25% 99%;
+    
+    /* Rich earth secondary */
+    --secondary: 35 45% 85%;
+    --secondary-foreground: 25 25% 15%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm muted tones */
+    --muted: 35 25% 90%;
+    --muted-foreground: 25 15% 45%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Emerald accent inspired by Uganda's greenery */
+    --accent: 155 65% 35%;
+    --accent-foreground: 45 25% 99%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 45 25% 99%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 18 75% 45%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Custom Uganda craft colors */
+    --ochre: 40 85% 55%;
+    --deep-blue: 220 85% 25%;
+    --gold: 45 90% 65%;
+    --forest-green: 140 55% 35%;
+    
+    /* Beautiful gradients */
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--ochre)), hsl(var(--primary)));
+    --gradient-earth: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
+    --gradient-heritage: linear-gradient(135deg, hsl(var(--forest-green)), hsl(var(--deep-blue)));
+    
+    /* Elegant shadows */
+    --shadow-craft: 0 10px 40px -15px hsl(var(--primary) / 0.3);
+    --shadow-heritage: 0 20px 60px -20px hsl(var(--deep-blue) / 0.2);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
