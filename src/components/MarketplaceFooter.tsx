@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-
 const MarketplaceFooter = () => {
-  return (
-    <footer className="bg-deep-blue text-primary-foreground">
+  return <footer className="bg-deep-blue text-primary-foreground">
       <div className="max-w-7xl mx-auto px-6">
         <div className="py-16 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
@@ -42,7 +40,7 @@ const MarketplaceFooter = () => {
           </div>
         </div>
         
-        <div className="py-8 border-t border-gold/20">
+        <div className="py-8 border-t border-gold/20 bg-zinc-900">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="opacity-75">
               © 2024 UgandaCraft. Preserving heritage, empowering communities.
@@ -51,15 +49,13 @@ const MarketplaceFooter = () => {
               <span className="opacity-75">Follow our journey:</span>
               <div className="flex gap-4">
                 <a href="#" className="text-gold hover:text-ochre transition-colors">Instagram</a>
-                <a href="#" className="text-gold hover:text-ochre transition-colors">Facebook</a>
+                <a href="#" className="text-gold hover:text-ochre transition-colors">Email wilexqest4@gmail.com</a>
                 <a href="#" className="text-gold hover:text-ochre transition-colors">Twitter</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default MarketplaceFooter;
