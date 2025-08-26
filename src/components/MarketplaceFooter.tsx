@@ -45,12 +45,27 @@ const MarketplaceFooter = () => {
             <p className="opacity-75">
               © 2024 UgandaCraft. Preserving heritage, empowering communities.
             </p>
-            <div className="flex items-center gap-6 mt-4 md:mt-0">
-              <span className="opacity-75">Follow our journey:</span>
-              <div className="flex gap-4">
-                <a href="#" className="text-gold hover:text-ochre transition-colors">Instagram</a>
-                <a href="#" className="text-gold hover:text-ochre transition-colors">Email wilexqest4@gmail.com</a>
-                <a href="#" className="text-gold hover:text-ochre transition-colors">Twitter</a>
+            <div className="flex flex-col md:flex-row gap-6 mt-4 md:mt-0">
+              <div className="flex flex-col gap-2">
+                <span className="opacity-75">Contact Us:</span>
+                <div className="flex flex-col md:flex-row gap-4 text-sm">
+                  <a href="mailto:wilequest4@gmail.com" className="text-gold hover:text-ochre transition-colors">
+                    📧 wilequest4@gmail.com
+                  </a>
+                  <a href="tel:+256781362232" className="text-gold hover:text-ochre transition-colors">
+                    📞 +256 781 362 232
+                  </a>
+                  <a href="https://wa.me/256781362232" className="text-gold hover:text-ochre transition-colors">
+                    💬 WhatsApp: +256 781 362 232
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <span className="opacity-75">Follow our journey:</span>
+                <div className="flex gap-4">
+                  <a href="#" className="text-gold hover:text-ochre transition-colors">Instagram</a>
+                  <a href="#" className="text-gold hover:text-ochre transition-colors">Twitter</a>
+                </div>
               </div>
             </div>
           </div>
